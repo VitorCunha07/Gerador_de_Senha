@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html Lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width+device-width, initial-scale=1.0">
+    <title>Gerador de Senha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon cadeado 2.png" type="image/x-icon">
+</head>
+
+<header>
+    <div class="center-img">
+        <img class="img-center" src="password generator.png" >
+    </div>
+</header>
+
+
+<body>
+
+    <div class="center">
+       
+        <main>
+            <input class="block" id="inputPasswordId" type="text"/>
+
+            <div>
+                <input id="inputLengthId" type="range" min="6" max="25">
+                <label for="inputLengthId"></label>
+            </div>
+            <div>
+                <input id="chkLowerId" type="checkbox" />
+                <label for="chkLowerId">Letras Minúsculas</label>
+            </div>
+            <div>
+                <input id="chkUpperId" type="checkbox" />
+                <label for="chkUpperId">Letras Maiúsculas</label>
+            </div>
+            <div>
+                <input id="chkNumberId" type="checkbox" />
+                <label for="chkNumberId">Números</label> 
+            </div>
+            <div>
+                <input id="chkSymbolsId" type="checkbox" />
+                <label for="chkSymbolsId">Caracteres Especiais</label>
+            </div>
+
+            <button id="btnGerar">Gerar</button>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
